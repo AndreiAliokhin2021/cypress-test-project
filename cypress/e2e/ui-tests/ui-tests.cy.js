@@ -3,15 +3,6 @@ import {
 } from "../../page-objects/GoogleStoreForGoogleMadeDevicesAccessoriesPage"
 import {SearchResultsPage} from "../../page-objects/SearchResultsPage"
 
-// describe('Test for reqres', () => {
-//     it('Positive: Create user', () => {
-//         cy.visit('https://store.google.com/us')
-//         cy.get('[data-test="header-search"]').click()
-//         cy.get('[aria-label="Main Navigation"]').type(`Fitbit Luxe Tracker{enter}`)
-//         cy.get('[aria-label*="Fitbit Luxe Tracker"]').should('exist')
-//     })
-// })
-
 const googleStoreForGoogleMadeDevicesAccessoriesPage = new GoogleStoreForGoogleMadeDevicesAccessoriesPage();
 const searchResultPage = new SearchResultsPage();
 
