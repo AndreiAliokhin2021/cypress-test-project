@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run test') {
             steps {
-                bat 'npx cypress run'
+                bat 'npx cypress run --record --key b2f6a21d-2997-4298-8a02-6713f01029af'
             }
         }
     }
