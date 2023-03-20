@@ -3,6 +3,7 @@
     "cypress": "^12.5.1"
   },
   "dependencies": {
-    "chance": "^1.1.9"
+    "chance": "^1.1.9",
+    "lodash": "^4.17.21"
   }
 }

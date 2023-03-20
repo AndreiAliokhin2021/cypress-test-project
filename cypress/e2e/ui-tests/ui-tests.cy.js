@@ -6,6 +6,10 @@ import {SearchResultsPage} from "../../page-objects/SearchResultsPage"
 const googleStoreForGoogleMadeDevicesAccessoriesPage = new GoogleStoreForGoogleMadeDevicesAccessoriesPage();
 const searchResultPage = new SearchResultsPage();
 
+let array = [1,2,3]
+
+array.head()
+
 describe('Google store tests', () => {
     before(() => {
         cy.fixture('product').then(data => {
